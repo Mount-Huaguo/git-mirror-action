@@ -9,6 +9,7 @@ then
   chmod 600 /root/.ssh/id_rsa
 fi
 
+echo "SSH KEY"
 echo "$SSH_PRIVATE_KEY"
 
 
