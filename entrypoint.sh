@@ -9,6 +9,9 @@ then
   chmod 600 /root/.ssh/id_rsa
 fi
 
+echo "$SSH_PRIVATE_KEY"
+
+
 if [ -n "$SSH_KNOWN_HOSTS" ]
 then
   mkdir -p /root/.ssh
