@@ -7,10 +7,12 @@ then
   mkdir -p /root/.ssh
   echo "$SSH_PRIVATE_KEY" > /root/.ssh/id_rsa
   chmod 600 /root/.ssh/id_rsa
+  echo "has private key"
 fi
 
 echo "SSH KEY"
 echo "$SSH_PRIVATE_KEY"
+echo "PRIVATE KEY"
 
 
 if [ -n "$SSH_KNOWN_HOSTS" ]
